@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Skiff-Regular";
+  src: local("Skiff Regular"), local("Skiff-Regular"),
+    url("../fonts/Skiff-Regular.woff2") format("woff2"),
+    url("../fonts/Skiff-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Skiff-SemiBold";
+  src: local("Skiff SemiBold"), local("Skiff-SemiBold"),
+    url("../fonts/Skiff-SemiBold.woff2") format("woff2"),
+    url("../fonts/Skiff-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Skiff-Medium";
+  src: local("Skiff Medium"), local("Skiff-Medium"),
+    url("../fonts/Skiff-Medium.woff2") format("woff2"),
+    url("../fonts/Skiff-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Albertus Nova";
+  src: local("Albertus Nova Bold"), local("Albertus-Nova-Bold"),
+    url("../fonts/AlbertusNova-Bold.woff2") format("woff2"),
+    url("../fonts/AlbertusNova-Bold.woff") format("woff"),
+    url("../fonts/AlbertusNova-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}

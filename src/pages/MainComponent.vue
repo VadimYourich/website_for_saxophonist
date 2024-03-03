@@ -241,10 +241,10 @@ export default {
   components: { HeaderComponent, FooterComponent },
   setup() {
     useHead({
-      title: "Main",
+      title: "SaxSanych - главная страница",
       meta: [
         {
-          name: "SaxSanych - главная страница",
+          name: "Main",
           content: "Главная страница",
         },
       ],

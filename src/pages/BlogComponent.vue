@@ -6,10 +6,7 @@
   </section>
 
   <section class="blogs center">
-    <p class="blogs__title">
-      Блог содержит удачные кадры некоторых выступлений, а также отзывы с
-      различных мероприятий.
-    </p>
+    <p class="blogs__title">Добро пожаловать на мои недавние выступления!</p>
     <div class="blogs__box">
       <div v-for="item in paginatedProducts" :key="item.id" class="blogs__blog">
         <img class="blogs__img" :src="item.src" alt="photo blog" />
@@ -99,11 +96,11 @@ export default {
   components: { HeaderComponent, FooterComponent },
   setup() {
     useHead({
-      title: "SaxSanych - блог",
+      title: "SaxSanych | Блог",
       meta: [
         {
           name: "Blog",
-          content: "Блог сайта",
+          content: "Блог саксофониста SaxSanych",
         },
       ],
     });

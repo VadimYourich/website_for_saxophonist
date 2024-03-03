@@ -52,11 +52,12 @@ export default {
   components: { HeaderComponent, FooterComponent, SliderComponent },
   setup() {
     useHead({
-      title: "SaxSanych - подробнее о мероприятии",
+      title: "SaxSanych | Подробнее о мероприятии",
       meta: [
         {
           name: "BlogDetails",
-          content: "Детализация блога",
+          content:
+            "Фотографии и отзывы с различных мероприятий саксофониста SaxSanych",
         },
       ],
     });

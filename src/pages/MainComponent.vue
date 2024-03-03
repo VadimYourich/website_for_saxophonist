@@ -241,11 +241,11 @@ export default {
   components: { HeaderComponent, FooterComponent },
   setup() {
     useHead({
-      title: "SaxSanych - главная страница",
+      title: "SaxSanych | Главная страница",
       meta: [
         {
           name: "Main",
-          content: "Главная страница",
+          content: "Главная страница саксофониста SaxSanych",
         },
       ],
     });

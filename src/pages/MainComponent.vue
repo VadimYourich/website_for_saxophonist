@@ -244,7 +244,7 @@ export default {
       title: "Main",
       meta: [
         {
-          name: "Main",
+          name: "SaxSanych - главная страница",
           content: "Главная страница",
         },
       ],

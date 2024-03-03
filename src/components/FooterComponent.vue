@@ -3,7 +3,6 @@
     <div class="footer__items">
       <div class="footer__logos">
         <!-- <router-link to="/" class="header__logo"> -->
-        
 
         <h1 class="header__logoText_1">SAX</h1>
         <h1 class="header__logoText_2">SANYCH</h1>
@@ -86,10 +85,7 @@
 
       <div class="footer__contact">
         <h3 class="footer__heading">Контакты</h3>
-        <p class="footer__address">
-          Краснодарский край<br />
-          ст. Кущёвская
-        </p>
+        <p class="footer__address">г. Краснодар</p>
         <router-link class="footer__email" to="#"
           >sax_sanych@mail.ru</router-link
         >

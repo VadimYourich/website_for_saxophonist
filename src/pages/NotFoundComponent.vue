@@ -47,7 +47,7 @@ export default {
   components: { HeaderComponent },
   setup() {
     useHead({
-      title: "NotFound",
+      title: "Страница не существует",
       meta: [
         {
           name: "NotFound",

@@ -99,7 +99,7 @@ export default {
   components: { HeaderComponent, FooterComponent },
   setup() {
     useHead({
-      title: "Blog",
+      title: "SaxSanych - блог",
       meta: [
         {
           name: "Blog",

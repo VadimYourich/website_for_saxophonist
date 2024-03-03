@@ -52,7 +52,7 @@ export default {
   components: { HeaderComponent, FooterComponent, SliderComponent },
   setup() {
     useHead({
-      title: "BlogDetails",
+      title: "SaxSanych - подробнее о мероприятии",
       meta: [
         {
           name: "BlogDetails",

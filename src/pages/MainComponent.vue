@@ -2,16 +2,16 @@
   <HeaderComponent />
 
   <section class="banner center">
-    <div class="banner__box">
-      <div class="banner__content">
-        <div class="banner__subcontent">
-          <h1 class="banner__heading">Музыкальная мастерская</h1>
-        </div>
-        <router-link class="banner__button" to="/blog">
-          Познакомиться
-        </router-link>
+    <!-- <div class="banner__box"> -->
+    <div class="banner__content">
+      <div class="banner__subcontent">
+        <h1 class="banner__heading">Музыкальная мастерская</h1>
       </div>
+      <router-link class="banner__button" to="/blog">
+        Познакомиться
+      </router-link>
     </div>
+    <!-- </div> -->
   </section>
 
   <section class="post center">

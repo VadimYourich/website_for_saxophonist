@@ -57,55 +57,49 @@ ul {
 .banner {
   margin-bottom: 69px;
   position: relative;
-  overflow: hidden;
+  // overflow: hidden;
   // width: 100%;
-  min-height: 550px;
+  min-height: 390px;
   // border: 1px solid white;
   // border-radius: 40px;
-  background-image: url("../img/banner-main1.jpg");
+  background-image: url("../img/banner-main.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  // background-size: cover;
   // animation: kenburns-top 5s ease-out both;
 
-  &__box {
-    // position: absolute;
-    // overflow: hidden;
-    width: 100%;
-    // min-height: 758px;
-    // // border: 1px solid white;
-    // border-radius: 40px;
-    // background-image: url("../img/banner-playing-the-saxophone.jpg");
-    // // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-  }
+  // &__box {
+  // position: absolute;
+  // overflow: hidden;
+  // width: 100%;
+  // min-height: 758px;
+  // // border: 1px solid white;
+  // border-radius: 40px;
+  // background-image: url("../img/banner-playing-the-saxophone.jpg");
+  // // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // }
 
   &__content {
     // position: absolute;
     // top: 33px;
     // left: 22px;
-    margin-top: 333px;
-    margin-left: 905px;
-    display: grid;
-    grid-template-columns: 434px;
-    grid-template-rows: repeat(2, auto);
-    gap: 6px;
+    // display: grid;
+    // grid-template-columns: 434px;
+    // grid-template-rows: repeat(2, auto);
+    /* gap: 6px; */
+    padding-top: 233px;
+    padding-left: 837px;
   }
 
   &__heading {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 100%;
+    margin-bottom: 25px;
+    font-size: 36px;
     font-weight: lighter;
-    line-height: 125%;
-    // color: #292f36;
-    // color: #e7e078;
+    line-height: 111%;
     color: $hoverColorTop;
     font-family: "Albertus Nova", sans-serif;
-    // font-family: "Skiff-SemiBold";
-    // font-family: "Skiff-Medium";
-    // font-family: "Skiff-Regular";
     letter-spacing: 8px;
     text-shadow: 3px 2px 7px black;
   }

@@ -55,17 +55,17 @@ ul {
 }
 
 .banner {
-  // margin-bottom: 96px;
+  margin-bottom: 69px;
   position: relative;
   overflow: hidden;
-  width: 100%;
-  min-height: 964px;
+  // width: 100%;
+  min-height: 550px;
   // border: 1px solid white;
   // border-radius: 40px;
-  background-image: url("../img/banner-playing-the-saxophone.png");
+  background-image: url("../img/banner-playing-the-saxophone4.jpg");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   // animation: kenburns-top 5s ease-out both;
 
   &__box {

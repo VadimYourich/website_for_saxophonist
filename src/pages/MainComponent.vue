@@ -1,8 +1,8 @@
 <template>
   <HeaderComponent />
 
-  <section class="banner">
-    <div class="banner__box center">
+  <section class="banner center">
+    <div class="banner__box">
       <div class="banner__content">
         <div class="banner__subcontent">
           <h1 class="banner__heading">Музыкальная мастерская</h1>

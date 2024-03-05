@@ -62,8 +62,8 @@ ul {
   min-height: 550px;
   // border: 1px solid white;
   // border-radius: 40px;
-  background-image: url("../img/banner-playing-the-saxophone4.jpg");
-  background-position: top;
+  background-image: url("../img/banner-main2.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   // animation: kenburns-top 5s ease-out both;
@@ -85,8 +85,8 @@ ul {
     // position: absolute;
     // top: 33px;
     // left: 22px;
-    margin-top: 66px;
-    margin-left: 22px;
+    margin-top: 323px;
+    margin-left: 905px;
     display: grid;
     grid-template-columns: 434px;
     grid-template-rows: repeat(2, auto);
@@ -125,7 +125,8 @@ ul {
     // box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
     // color: #fff;
     // color: $hoverColor;
-    color: rgb(91, 29, 52);
+    // color: rgb(91, 29, 52);
+    color: $hoverColorTop;
     // color: #4d5053;
     text-align: center;
     // font-family: "Jost";
@@ -136,7 +137,7 @@ ul {
     letter-spacing: 0.36px;
     transition: all 0.6s ease-out;
     position: relative;
-    text-shadow: 3px 2px 7px $hoverColor;
+    text-shadow: 3px 2px 7px black;
     text-transform: uppercase;
 
     &::before,
@@ -154,6 +155,8 @@ ul {
       // border-left: 6px solid #fdca6b;
       // border-top: 6px solid #4d5053;
       // border-left: 6px solid #4d5053;
+      // border-top: 6px solid $hoverColorTop;
+      // border-left: 6px solid $hoverColorTop;
       border-top: 6px solid rgb(91, 29, 52);
       border-left: 6px solid rgb(91, 29, 52);
     }
@@ -163,6 +166,8 @@ ul {
       right: 0;
       // border-bottom: 6px solid #fdca6b;
       // border-right: 6px solid #fdca6b;
+      // border-bottom: 6px solid $hoverColorTop;
+      // border-right: 6px solid $hoverColorTop;
       border-bottom: 6px solid rgb(91, 29, 52);
       border-right: 6px solid rgb(91, 29, 52);
       // border-bottom: 6px solid #4d5053;

@@ -2,20 +2,30 @@
 @import "fonts";
 
 .header {
-  margin-top: 44px;
-  margin-bottom: 44px;
-  height: 50px;
+  // margin-top: 44px;
+  // margin-bottom: 44px;
+  // height: 50px;
+  height: 138px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  // padding-top: 44px;
 
-  &__menubar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  // &__menubar {
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  //   padding-left: 16px;
+  //   padding-right: 16px;
+  // }
 
   &__logo {
     display: flex;
     align-items: center;
     gap: 10px;
+    padding-left: 16px;
     // transition: all 0.5s ease-out;
 
     &:hover .header__logoText_1 {
@@ -93,14 +103,15 @@
   }
 
   &__menu {
-    width: 624px;
-    height: 25px;
-    display: flex;
-    justify-content: flex-end;
+    padding-right: 16px;
+    // width: 624px;
+    // height: 25px;
+    // display: flex;
+    // justify-content: flex-end;
   }
 
   &__menuList {
-    width: 590px;
+    // width: 590px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -108,6 +119,7 @@
   }
 
   &__menuLink {
+    text-wrap: nowrap;
     color: $headerColor;
     text-align: center;
     font-family: "Albertus Nova", "Jost";
@@ -145,6 +157,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
     // align-content: center;
     // gap: 126px;
   }
@@ -175,7 +189,10 @@
     fill: $clickColor;
   }
 
-  // ---- footer__menubar ----
+  &__menubar {
+    text-align: center;
+  }
+
   &__heading {
     color: $grayColor;
     font-style: normal;
@@ -204,7 +221,8 @@
 
   // ---- footer__contact ----
   &__contact {
-    min-width: 258px;
+    text-align: end;
+    // min-width: 258px;
     // padding-left: 230px;
   }
 
@@ -236,5 +254,32 @@
   &__phone {
     padding-top: 20px;
     line-height: 300%;
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 767px) {
+  .header {
+    // margin-top: 22px;
+    // margin-bottom: 22px;
+    // height: 50px;
+    // padding-top: 22px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &__menubar {
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    &__menu {
+      padding-right: 0px;
+    }
+    &__logo {
+      padding-left: 0px;
+    }
   }
 }

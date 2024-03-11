@@ -4,10 +4,18 @@
   <section class="blogdetails-banner center"></section>
   <section class="blogdetails center">
     <div class="blogdetails__content">
-      <h1 class="blogdetails__heading">
-        Отзывы посетителей мероприятия<br />
-        {{ getlistBlogs[getCurrentFeedbackNumber].event }}:
-      </h1>
+      <p class="blogdetails__heading">
+        Мероприятие "{{
+          getlistBlogs[getCurrentFeedbackNumber].event
+        }}"<br /><span class="blogdetails__text"
+          >состоялось {{ getlistBlogs[getCurrentFeedbackNumber].date }}</span
+        >
+      </p>
+      <p class="blogdetails__text">
+        Место проведения: {{ getlistBlogs[getCurrentFeedbackNumber].place }}
+      </p>
+      <br />
+      <p class="blogdetails__text">Отзывы посетителей мероприятия:</p>
       <p
         class="blogdetails__text"
         v-for="(value, name, index) in getlistBlogs[getCurrentFeedbackNumber]
@@ -23,12 +31,6 @@
         "
       >
         Не оставлены
-      </p>
-      <br />
-      <p class="blogdetails__text">
-        Данное мероприятие состоялось
-        {{ getlistBlogs[getCurrentFeedbackNumber].date }}<br />
-        Место проведения: {{ getlistBlogs[getCurrentFeedbackNumber].place }}
       </p>
     </div>
     <div class="blogdetailsSlider"></div>

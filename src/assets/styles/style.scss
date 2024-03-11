@@ -29,6 +29,7 @@
 body {
   font-family: "Albertus Nova", "Jost", sans-serif;
   background-color: $colorOfSite;
+  min-width: 320px;
 }
 
 a {
@@ -65,7 +66,7 @@ ul {
   background-image: url("../img/banner-main.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  // background-size: cover;
+  background-size: cover;
   // animation: kenburns-top 5s ease-out both;
 
   // &__box {
@@ -352,4 +353,18 @@ ul {
     letter-spacing: 0.16px;
     text-transform: capitalize;
   }
+}
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - $widthOfSite / 2);
+    padding-right: calc(50% - $widthOfSite / 2);
+  }
+}
+
+@media (max-width: 767px) {
+  // .center {
+  //   padding-left: 16px;
+  //   padding-right: 16px;
+  // }
 }

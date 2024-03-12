@@ -2,11 +2,11 @@
   <footer class="footer center">
     <div class="footer__items">
       <div class="footer__logos">
-        <!-- <router-link to="/" class="header__logo"> -->
+        <router-link to="/" class="footer__logo">
+          <h1 class="header__logoText_1">SAX</h1>
 
-        <h1 class="header__logoText_1">SAX</h1>
-        <h1 class="header__logoText_2">SANYCH</h1>
-        <!-- </router-link> -->
+          <h1 class="header__logoText_2">SANYCH</h1>
+        </router-link>
         <p class="footer__text">
           Подписывайтесь на<br />
           обновления

@@ -5,7 +5,7 @@
     <!-- <div class="banner__box"> -->
     <div class="banner__content">
       <div class="banner__subcontent">
-        <h1 class="banner__heading">Музыкальная мастерская</h1>
+        <h1 class="banner__heading">Музыкальная <br />мастерская</h1>
       </div>
       <router-link class="banner__button" to="/blog">
         Познакомиться

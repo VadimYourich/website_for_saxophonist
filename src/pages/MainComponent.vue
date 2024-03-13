@@ -79,11 +79,10 @@
     </div>
     <div class="post__box">
       <img
-        class="post__img"
+        class="post__img_movable"
         src="@/assets/img/orchestra.jpg"
         alt="post image"
       />
-
       <div class="post__subcontent">
         <div class="post__info">
           <p class="post__text">
@@ -126,6 +125,11 @@
           </details>
         </div>
       </div>
+      <img
+        class="post__img_double"
+        src="@/assets/img/orchestra.jpg"
+        alt="post image"
+      />
     </div>
     <div class="post__box">
       <div class="post__subcontent">
@@ -175,11 +179,10 @@
     </div>
     <div class="post__box">
       <img
-        class="post__img"
+        class="post__img_movable"
         src="@/assets/img/companyParty.jpg"
         alt="post image"
       />
-
       <div class="post__subcontent">
         <div class="post__info">
           <!-- <h3 class="post__title">
@@ -225,6 +228,11 @@
           </details>
         </div>
       </div>
+      <img
+        class="post__img_double"
+        src="@/assets/img/companyParty.jpg"
+        alt="post image"
+      />
     </div>
   </section>
 

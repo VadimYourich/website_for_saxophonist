@@ -6,7 +6,7 @@
   </section>
 
   <section class="blogs center">
-    <p class="blogs__title">Добро пожаловать на мои недавние выступления!</p>
+    <p class="blogs__title">Добро пожаловать на мои выступления!</p>
     <div class="blogs__box">
       <div v-for="item in paginatedProducts" :key="item.id" class="blogs__blog">
         <img class="blogs__img" :src="item.src" alt="photo blog" />

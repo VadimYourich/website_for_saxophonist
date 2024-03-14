@@ -81,8 +81,8 @@ export default createStore({
       {
         id: 5,
         flag: false,
-        src: require("@/assets/img/blog/blog5.png"),
-        place: 'кафе "Валерия"',
+        src: require("@/assets/img/blog/blog5.jpg"),
+        place: 'ресторан "Валери"',
         event: "День рождения В.Ю. Степанько",
         reviews: { "В.Ю. Степанько": '"Спасибо, великолепный вечер!"' },
         date: "21.05.2023г.",
@@ -191,7 +191,7 @@ export default createStore({
       {
         id: 14,
         flag: false,
-        src: require("@/assets/img/blog/blog5.png"),
+        src: require("@/assets/img/blog/blog14.png"),
         place: 'Кафе "Виктория"',
         event: "День рождения В.Ю. Середа",
         reviews: {},

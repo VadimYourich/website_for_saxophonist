@@ -149,7 +149,12 @@
   &__menuLink,
   &__address,
   &__phone {
-    @extend %styleTextJost;
+    color: #4d5053;
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
   }
 
   // ---- footer__logos ----
@@ -258,19 +263,56 @@
 }
 
 @media (max-width: 1024px) {
+  .header {
+    height: 111px;
+  }
+  .footer {
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 90px;
+    &__logoImg {
+      width: 40px;
+      height: 40px;
+    }
+    &__logoText_1 {
+      font-size: 32px;
+    }
+    &__logoText_2 {
+      font-size: 26px;
+    }
+    &__menuLink {
+      font-size: 17px;
+    }
+    &__menuList {
+      gap: 40px;
+    }
+  }
+  .footer {
+    margin-bottom: 100px;
+  }
 }
 
 @media (max-width: 689px) {
   .header {
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 6px;
 
     &__menu {
       padding-right: 0px;
     }
     &__logo {
       padding-left: 0px;
+    }
+    &__menuLink {
+      font-size: 14px;
+    }
+    &__menuList {
+      gap: 27px;
     }
   }
   .footer {
@@ -287,11 +329,13 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin-bottom: 10px;
     }
     &__logo {
       display: flex;
       align-items: center;
       gap: 10px;
+      margin-bottom: 15px;
     }
     &__text {
       padding-bottom: 16px;
@@ -315,15 +359,82 @@
     }
   }
 }
-
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .header {
+    height: 85px;
+    gap: 4px;
+    &__logoImg {
+      width: 38px;
+      height: 38px;
+    }
+    &__logoText_1 {
+      font-size: 30px;
+    }
+    &__logoText_2 {
+      font-size: 24px;
+    }
+    &__menuLink {
+      font-size: 13px;
+    }
+    &__menuList {
+      gap: 26px;
+    }
+  }
+  .footer {
+    &__text,
+    &__menuLink,
+    &__address,
+    &__phone,
+    &__email {
+      font-size: 18px;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .header {
+    height: 83px;
+    gap: 3px;
+    &__logoImg {
+      width: 36px;
+      height: 36px;
+    }
+    &__logoText_1 {
+      font-size: 28px;
+    }
+    &__logoText_2 {
+      font-size: 22px;
+    }
+    &__menuLink {
+      font-size: 12px;
+    }
     &__menuList {
       gap: 25px;
     }
-
+  }
+  .footer__heading {
+    font-size: 23px;
+    margin-bottom: 6px;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    height: 77px;
+    gap: 0px;
     &__logoImg {
-      display: none;
+      width: 34px;
+      height: 34px;
+    }
+    &__logoText_1 {
+      font-size: 26px;
+    }
+    &__logoText_2 {
+      font-size: 20px;
+    }
+    &__menuLink {
+      font-size: 11px;
+    }
+    &__menuList {
+      gap: 25px;
     }
   }
 }

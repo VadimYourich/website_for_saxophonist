@@ -15,29 +15,31 @@
             <h2 class="blogs__heading">{{ item.place }}</h2>
             <p class="blogs__text">{{ item.event }}</p>
           </div>
-          <p class="blogs__reviews">Подробнее</p>
-          <router-link
-            :to="{ name: 'BlogDetails', params: { id: item.id } }"
-            class="blogs__bloglink"
-          >
-            <svg
-              class="blogs__icon"
-              width="52"
-              height="53"
-              viewBox="0 0 52 53"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+          <div class="blogs__reviews">
+            <p class="blogs__reviews_text">Подробнее</p>
+            <router-link
+              :to="{ name: 'BlogDetails', params: { id: item.id } }"
+              class="blogs__bloglink"
             >
-              <circle cx="26" cy="26.5" r="26" fill="#F4F0EC" />
-              <path
-                d="M23.771 33.1855L29.7139 26.4998L23.771 19.8141"
-                stroke="#292F36"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </router-link>
+              <svg
+                class="blogs__icon"
+                width="52"
+                height="53"
+                viewBox="0 0 52 53"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="26" cy="26.5" r="26" fill="#F4F0EC" />
+                <path
+                  d="M23.771 33.1855L29.7139 26.4998L23.771 19.8141"
+                  stroke="#292F36"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </router-link>
+          </div>
         </div>
       </div>
     </div>

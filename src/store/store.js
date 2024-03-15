@@ -136,7 +136,7 @@ export default createStore({
       {
         id: 9,
         flag: false,
-        src: require("@/assets/img/blog/blog9.png"),
+        src: require("@/assets/img/blog/blog9.jpg"),
         place: 'ресторан "Атаманская усадьба"',
         event: "Юбилей Карена Владимировича Аванисян",
         reviews: {

@@ -190,7 +190,7 @@ ul {
 }
 
 .post {
-  margin-bottom: 150px;
+  // margin-bottom: 150px;
 
   &__mainInfo {
     display: block;
@@ -198,25 +198,16 @@ ul {
     max-width: 737px;
     margin-bottom: 40px;
   }
-
-  // &__mainHeading {
-  //   @extend %styleTextDMSerifDisplay;
-  //   text-align: center;
-  //   font-size: 40px;
-  //   line-height: 125%; /* 62.5px */
-  //   letter-spacing: 1px;
-  //   margin-bottom: 8px;
-  // }
   &__logo {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     transition: all 0.6s ease-out;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   &__logoText_1 {
-    font-size: 36px;
+    font-size: 26px;
     line-height: 125%;
     color: #4d5053;
     font-family: "Albertus Nova", "Jost";
@@ -225,7 +216,7 @@ ul {
     letter-spacing: 1.22px;
   }
   &__logoText_2 {
-    font-size: 30px;
+    font-size: 22px;
     line-height: 125%;
     color: #4d5053;
     font-family: "Albertus Nova", "Jost";
@@ -386,8 +377,24 @@ ul {
       font-size: 14px;
     }
   }
-  .post__text {
-    font-size: 20px;
+  .post {
+    // margin-bottom: 140px;
+    &__logo {
+      margin-bottom: 9px;
+      gap: 9px;
+    }
+    &__logoText_1 {
+      font-size: 24px;
+    }
+    &__logoText_2 {
+      font-size: 20px;
+    }
+    &__mainText {
+      font-size: 24px;
+    }
+    &__text {
+      font-size: 20px;
+    }
   }
 }
 
@@ -416,15 +423,19 @@ ul {
     }
   }
   .post {
-    margin-bottom: 120px;
+    // margin-bottom: 120px;
     &__logo {
-      margin-bottom: 16px;
+      margin-bottom: 8px;
+      gap: 8px;
     }
     &__logoText_1 {
-      font-size: 32px;
+      font-size: 22px;
     }
     &__logoText_2 {
-      font-size: 26px;
+      font-size: 18px;
+    }
+    &__mainInfo {
+      max-width: 88vw;
     }
     &__mainText {
       font-size: 22px;
@@ -461,7 +472,7 @@ ul {
       padding-bottom: 11px;
     }
     &__heading {
-      margin-bottom: 7px;
+      margin-bottom: 6px;
       font-size: 18px;
     }
     &__button {
@@ -478,19 +489,18 @@ ul {
     }
   }
   .post {
-    margin-bottom: 100px;
-
+    // margin-bottom: 100px;
     &__logo {
-      margin-bottom: 13px;
+      margin-bottom: 6px;
+      gap: 7px;
     }
     &__logoText_1 {
-      font-size: 28px;
+      font-size: 20px;
     }
     &__logoText_2 {
-      font-size: 22px;
+      font-size: 16px;
     }
     &__mainInfo {
-      max-width: 88vw;
       margin-bottom: 36px;
     }
     &__mainText {
@@ -526,8 +536,9 @@ ul {
       padding-bottom: 10px;
     }
     &__heading {
-      margin-bottom: 5px;
+      margin-bottom: 2px;
       font-size: 16px;
+      letter-spacing: 7px;
     }
     &__button {
       font-size: 8px;
@@ -543,15 +554,16 @@ ul {
     }
   }
   .post {
-    margin-bottom: 90px;
+    // margin-bottom: 90px;
     &__logo {
-      margin-bottom: 12px;
+      margin-bottom: 5px;
+      gap: 6px;
     }
     &__logoText_1 {
-      font-size: 25px;
+      font-size: 18px;
     }
     &__logoText_2 {
-      font-size: 19px;
+      font-size: 14px;
     }
     &__mainText {
       font-size: 18px;
@@ -575,8 +587,9 @@ ul {
       padding-bottom: 9px;
     }
     &__heading {
-      margin-bottom: 2px;
+      margin-bottom: 0px;
       font-size: 14px;
+      letter-spacing: 6px;
     }
     &__button {
       font-size: 7px;
@@ -594,18 +607,19 @@ ul {
     }
   }
   .post {
-    margin-bottom: 80px;
+    // margin-bottom: 80px;
     &__mainInfo {
       margin-bottom: 33px;
     }
     &__logo {
-      margin-bottom: 10px;
+      margin-bottom: 4px;
+      gap: 5px;
     }
     &__logoText_1 {
-      font-size: 23px;
+      font-size: 17px;
     }
     &__logoText_2 {
-      font-size: 17px;
+      font-size: 13px;
     }
     &__mainText {
       font-size: 17px;

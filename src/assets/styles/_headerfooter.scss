@@ -143,6 +143,7 @@
 }
 
 .footer {
+  margin-top: 150px;
   margin-bottom: 134px;
 
   &__text,
@@ -268,6 +269,7 @@
   }
   .footer {
     margin-bottom: 120px;
+    margin-top: 140px;
   }
 }
 
@@ -279,10 +281,10 @@
       height: 40px;
     }
     &__logoText_1 {
-      font-size: 32px;
+      font-size: 30px;
     }
     &__logoText_2 {
-      font-size: 26px;
+      font-size: 25px;
     }
     &__menuLink {
       font-size: 17px;
@@ -293,6 +295,7 @@
   }
   .footer {
     margin-bottom: 100px;
+    margin-top: 120px;
   }
 }
 
@@ -300,13 +303,17 @@
   .header {
     flex-direction: column;
     justify-content: center;
-    gap: 6px;
+    gap: 0px;
 
     &__menu {
       padding-right: 0px;
+      margin-left: 27px;
     }
     &__logo {
       padding-left: 0px;
+    }
+    &__menu {
+      margin-top: -2px;
     }
     &__menuLink {
       font-size: 14px;
@@ -361,26 +368,31 @@
 }
 @media (max-width: 425px) {
   .header {
-    height: 85px;
-    gap: 4px;
+    height: 80px;
+    gap: 0px;
     &__logoImg {
-      width: 38px;
-      height: 38px;
+      width: 37px;
+      height: 37px;
     }
     &__logoText_1 {
-      font-size: 30px;
+      font-size: 29px;
     }
     &__logoText_2 {
-      font-size: 24px;
+      font-size: 23px;
+    }
+    &__menu {
+      margin-top: -3px;
+      margin-left: 26px;
     }
     &__menuLink {
       font-size: 13px;
     }
     &__menuList {
-      gap: 26px;
+      gap: 24px;
     }
   }
   .footer {
+    margin-top: 100px;
     &__text,
     &__menuLink,
     &__address,
@@ -392,49 +404,69 @@
 }
 @media (max-width: 375px) {
   .header {
-    height: 83px;
-    gap: 3px;
-    &__logoImg {
-      width: 36px;
-      height: 36px;
-    }
-    &__logoText_1 {
-      font-size: 28px;
-    }
-    &__logoText_2 {
-      font-size: 22px;
-    }
-    &__menuLink {
-      font-size: 12px;
-    }
-    &__menuList {
-      gap: 25px;
-    }
-  }
-  .footer__heading {
-    font-size: 23px;
-    margin-bottom: 6px;
-  }
-}
-@media (max-width: 320px) {
-  .header {
-    height: 77px;
+    height: 70px;
     gap: 0px;
+    &__logo {
+      gap: 9px;
+    }
     &__logoImg {
       width: 34px;
       height: 34px;
     }
     &__logoText_1 {
-      font-size: 26px;
+      font-size: 27px;
     }
     &__logoText_2 {
-      font-size: 20px;
+      font-size: 21px;
+    }
+    &__menu {
+      margin-top: -4px;
+      margin-left: 25px;
+    }
+    &__menuLink {
+      font-size: 12px;
+    }
+    &__menuList {
+      gap: 23px;
+    }
+  }
+  .footer {
+    margin-top: 90px;
+    .footer__heading {
+      font-size: 23px;
+      margin-bottom: 6px;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    height: 60px;
+    gap: 0px;
+    &__logo {
+      gap: 8px;
+    }
+    &__logoImg {
+      width: 31px;
+      height: 31px;
+    }
+    &__logoText_1 {
+      font-size: 23px;
+    }
+    &__logoText_2 {
+      font-size: 18px;
+    }
+    &__menu {
+      margin-top: -6px;
+      margin-left: 24px;
     }
     &__menuLink {
       font-size: 11px;
     }
     &__menuList {
-      gap: 25px;
+      gap: 17px;
     }
+  }
+  .footer {
+    margin-top: 80px;
   }
 }

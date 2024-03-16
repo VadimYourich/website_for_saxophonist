@@ -52,47 +52,66 @@
 @media (max-width: 768px) {
   .blogdetails-banner {
     min-height: 250px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
+  }
+  .blogdetails {
+    gap: 26px;
+    &__heading {
+      margin-bottom: 28px;
+      font-size: 22px;
+    }
+    &__text {
+      font-size: 22px;
+    }
   }
 }
 @media (max-width: 425px) {
   .blogdetails-banner {
     min-height: 180px;
-    margin-bottom: 44px;
+    margin-bottom: 38px;
   }
-  .blogdetails__heading {
-    margin-bottom: 27px;
-    font-size: 25px;
-  }
-  .blogdetails__text {
-    font-size: 25px;
+  .blogdetails {
+    gap: 24px;
+    &__heading {
+      margin-bottom: 26px;
+      font-size: 20px;
+    }
+    &__text {
+      font-size: 20px;
+    }
   }
 }
 
 @media (max-width: 375px) {
   .blogdetails-banner {
     min-height: 161px;
-    margin-bottom: 41px;
+    margin-bottom: 36px;
   }
-  .blogdetails__heading {
-    margin-bottom: 26px;
-    font-size: 24px;
-  }
-  .blogdetails__text {
-    font-size: 24px;
+  .blogdetails {
+    gap: 23px;
+    &__heading {
+      margin-bottom: 24px;
+      font-size: 18px;
+    }
+    &__text {
+      font-size: 18px;
+    }
   }
 }
 
 @media (max-width: 320px) {
   .blogdetails-banner {
     min-height: 126px;
-    margin-bottom: 36px;
+    margin-bottom: 33px;
   }
-  .blogdetails__heading {
-    margin-bottom: 25px;
-    font-size: 22px;
-  }
-  .blogdetails__text {
-    font-size: 22px;
+  .blogdetails {
+    gap: 22px;
+    &__heading {
+      margin-bottom: 22px;
+      font-size: 16px;
+    }
+    &__text {
+      font-size: 16px;
+    }
   }
 }

@@ -2,71 +2,38 @@
 @import "fonts";
 
 .header {
-  // margin-top: 44px;
-  // margin-bottom: 44px;
-  // height: 50px;
   height: 138px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 16px;
   padding-right: 16px;
-  // padding-top: 44px;
-
-  // &__menubar {
-  //   display: flex;
-  //   justify-content: space-between;
-  //   align-items: center;
-  //   padding-left: 16px;
-  //   padding-right: 16px;
-  // }
 
   &__logo {
     display: flex;
     align-items: center;
     gap: 10px;
     padding-left: 16px;
-    // transition: all 0.5s ease-out;
 
     &:hover .header__logoText_1 {
       color: $hoverColorTop;
-      // color: rgb(91, 29, 52);
-      // transition: all 0.5s ease-out;
     }
     &:active .header__logoText_1 {
       color: $clickColor;
-      // color: $hoverColor;
-      // transition: all 0.5s ease-out;
     }
     &:hover .header__logoText_2 {
       color: $hoverColorTop;
-      // color: rgb(91, 29, 52);
-      // transition: all 0.5s ease-out;
     }
     &:active .header__logoText_2 {
       color: $clickColor;
-      // color: $hoverColor;
-      // transition: all 0.5s ease-out;
     }
     &:hover .header__logoImg path {
-      // fill: rgb(91, 29, 52);
       fill: $hoverColorTop;
-      // transition: all 0.5s ease-out;
     }
   }
 
   &__logoImg path {
     transition: all 0.5s ease-out;
-    // &:hover path {
-    //   // fill: rgb(91, 29, 52);
-    //   fill: $hoverColor;
-    //   transition: all 0.5s ease-out;
-    // }
-    // &:active path {
-    //   // fill: $hoverColor;
-    //   fill: rgb(91, 29, 52);
-    //   transition: all 0.5s ease-out;
-    // }
   }
 
   &__logoText_1 {

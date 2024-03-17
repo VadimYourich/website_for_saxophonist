@@ -15,7 +15,7 @@
     <swiper-slide v-for="picture in sliderPictures">
       <div class="swiper-zoom-container">
         <img
-          class="projectdetails__img swiper-slide__img"
+          class="blogdetails__img swiper-slide__img"
           :src="picture.src"
           :alt="picture.alt"
         />
@@ -54,5 +54,17 @@ export default {
 };
 </script>
 
-<!-- <style lang="scss" scoped>
-</style> -->
+<style lang="scss" scoped>
+// .swiper {
+//   // width: 95%;
+//   height: 100vw;
+// }
+.swiper-slide__img {
+  // margin-bottom: 42px;
+  margin-bottom: 0px;
+}
+.swiper-zoom-container > img {
+  max-width: 85%;
+  max-height: 100vw;
+}
+</style>

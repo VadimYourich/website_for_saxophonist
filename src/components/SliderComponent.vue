@@ -55,12 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// .swiper {
-//   // width: 95%;
-//   height: 100vw;
-// }
 .swiper-slide__img {
-  // margin-bottom: 42px;
   margin-bottom: 0px;
 }
 .swiper-zoom-container > img {

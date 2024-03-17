@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-left: 16px;
+    padding-left: 2%;
 
     &:hover .header__logoText_1 {
       color: $hoverColorTop;
@@ -54,34 +54,17 @@
     font-style: normal;
     font-weight: 600;
     letter-spacing: 1.22px;
-    position: relative;
     transition: all 0.5s ease-in;
-    // &:hover::after {
-    //   content: "";
-    //   height: 48px;
-    //   width: 48px;
-    //   position: absolute;
-    //   transition: all 0.6s;
-    //   background-image: url("../img/saxophone_icon.svg");
-    //   background-position: center;
-    //   background-repeat: no-repeat;
-    //   background-size: contain;
-    // }
   }
 
   &__menu {
-    padding-right: 16px;
-    // width: 624px;
-    // height: 25px;
-    // display: flex;
-    // justify-content: flex-end;
+    padding-right: 2%;
   }
 
   &__menuList {
-    // width: 590px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    // justify-content: flex-end;
     gap: 48px;
   }
 
@@ -98,13 +81,9 @@
 
     &:hover {
       color: $hoverColorTop;
-
-      // color: rgb(91, 29, 52);
-      // transition: all 0.5s ease-out;
     }
     &:active {
       color: $clickColor;
-      // color: $hoverColor;
     }
   }
 }
@@ -232,7 +211,10 @@
 
 @media (max-width: 1024px) {
   .header {
-    height: 111px;
+    height: 100px;
+    // .header__logoText_2 {
+    //   margin-top: 3px;
+    // }
   }
   .footer {
     margin-bottom: 120px;
@@ -242,22 +224,25 @@
 
 @media (max-width: 768px) {
   .header {
-    height: 90px;
+    height: 80px;
+    &__logo {
+      gap: 7px;
+    }
     &__logoImg {
-      width: 40px;
-      height: 40px;
+      width: 33px;
+      height: 33px;
     }
     &__logoText_1 {
-      font-size: 30px;
+      font-size: 25px;
     }
     &__logoText_2 {
-      font-size: 25px;
+      font-size: 21px;
     }
     &__menuLink {
       font-size: 17px;
     }
     &__menuList {
-      gap: 40px;
+      gap: 30px;
     }
   }
   .footer {
@@ -268,26 +253,26 @@
 
 @media (max-width: 689px) {
   .header {
-    flex-direction: column;
-    justify-content: center;
-    gap: 0px;
+    // flex-direction: column;
+    // justify-content: center;
+    // gap: 0px;
 
-    &__menu {
-      padding-right: 0px;
-      margin-left: 27px;
-    }
-    &__logo {
-      padding-left: 0px;
-    }
-    &__menu {
-      margin-top: -2px;
-    }
-    &__menuLink {
-      font-size: 14px;
-    }
-    &__menuList {
-      gap: 27px;
-    }
+    // &__menu {
+    //   padding-right: 0px;
+    //   margin-left: 27px;
+    // }
+    // &__logo {
+    //   padding-left: 0px;
+    // }
+    // &__menu {
+    //   margin-top: -2px;
+    // }
+    // &__menuLink {
+    //   font-size: 14px;
+    // }
+    // &__menuList {
+    //   gap: 20px;
+    // }
   }
   .footer {
     margin-bottom: 40px;
@@ -335,27 +320,28 @@
 }
 @media (max-width: 425px) {
   .header {
-    height: 80px;
-    gap: 0px;
+    height: 57px;
+    &__logo {
+      gap: 6px;
+    }
     &__logoImg {
-      width: 37px;
-      height: 37px;
+      width: 25px;
+      height: 25px;
     }
     &__logoText_1 {
-      font-size: 29px;
+      font-size: 20px;
     }
     &__logoText_2 {
-      font-size: 23px;
+      font-size: 16px;
     }
     &__menu {
-      margin-top: -3px;
-      margin-left: 26px;
+      margin-top: -5px;
     }
     &__menuLink {
       font-size: 13px;
     }
     &__menuList {
-      gap: 24px;
+      gap: 16px;
     }
   }
   .footer {
@@ -367,73 +353,110 @@
     &__email {
       font-size: 18px;
     }
+    &__logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 5px;
+    }
+    &__icons {
+      display: flex;
+      flex-direction: row;
+      gap: 12%;
+      justify-content: center;
+    }
+    &__icon_1 {
+      width: 33px;
+      height: 33px;
+    }
+    &__icon_2 {
+      width: 37px;
+      height: 37px;
+    }
+    &__icon_3 {
+      width: 31px;
+      height: 37px;
+    }
+    &__heading {
+      font-size: 22px;
+    }
+    &__phone {
+      padding-top: 0px;
+    }
+    &__address {
+      padding-bottom: 10px;
+    }
   }
 }
 @media (max-width: 375px) {
   .header {
-    height: 70px;
-    gap: 0px;
+    height: 52px;
     &__logo {
-      gap: 9px;
+      gap: 5px;
     }
     &__logoImg {
-      width: 34px;
-      height: 34px;
+      width: 22px;
+      height: 22px;
     }
     &__logoText_1 {
-      font-size: 27px;
+      font-size: 17px;
     }
     &__logoText_2 {
-      font-size: 21px;
+      font-size: 13px;
     }
     &__menu {
-      margin-top: -4px;
-      margin-left: 25px;
+      margin-top: -6px;
     }
     &__menuLink {
       font-size: 12px;
     }
     &__menuList {
-      gap: 23px;
+      gap: 14px;
     }
   }
   .footer {
     margin-top: 90px;
-    .footer__heading {
+    &__heading {
       font-size: 23px;
       margin-bottom: 6px;
+    }
+    &__logo {
+      gap: 7px;
+      margin-bottom: 2px;
     }
   }
 }
 @media (max-width: 320px) {
   .header {
-    height: 60px;
-    gap: 0px;
+    height: 49px;
     &__logo {
-      gap: 8px;
+      gap: 4px;
     }
     &__logoImg {
-      width: 31px;
-      height: 31px;
+      width: 20px;
+      height: 20px;
     }
     &__logoText_1 {
-      font-size: 23px;
+      font-size: 15px;
     }
     &__logoText_2 {
-      font-size: 18px;
+      font-size: 11px;
     }
     &__menu {
       margin-top: -6px;
-      margin-left: 24px;
     }
     &__menuLink {
       font-size: 11px;
     }
     &__menuList {
-      gap: 17px;
+      gap: 13px;
     }
   }
   .footer {
     margin-top: 80px;
+    &__logo {
+      gap: 5px;
+      margin-bottom: 0px;
+    }
   }
 }

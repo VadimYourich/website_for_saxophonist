@@ -58,11 +58,7 @@ ul {
 .banner {
   margin-bottom: 69px;
   position: relative;
-  // overflow: hidden;
-  // width: 100%;
   min-height: 390px;
-  // border: 1px solid white;
-  // border-radius: 40px;
   background-image: url("../img/banner-main.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -71,32 +67,9 @@ ul {
   align-items: end;
   justify-content: flex-end;
   padding-bottom: 10px;
-  // animation: kenburns-top 5s ease-out both;
-
-  // &__box {
-  // position: absolute;
-  // overflow: hidden;
-  // width: 100%;
-  // min-height: 758px;
-  // // border: 1px solid white;
-  // border-radius: 40px;
-  // background-image: url("../img/banner-playing-the-saxophone.jpg");
-  // // background-position: center;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // }
 
   &__content {
     padding-bottom: 10px;
-    // position: absolute;
-    // top: 33px;
-    // left: 22px;
-    // display: grid;
-    // grid-template-columns: 434px;
-    // grid-template-rows: repeat(2, auto);
-    /* gap: 6px; */
-    // padding-top: 233px;
-    // padding-left: 837px;
   }
 
   &__heading {
@@ -111,30 +84,15 @@ ul {
   }
 
   &__button {
-    // display: flex;
     padding: 8px 12px 8px 12px;
-    // flex-direction: row;
-    // justify-content: space-between;
-    // align-items: center;
-    // flex-wrap: nowrap;
-    // gap: 10px;
     max-width: 200px;
     box-sizing: border-box;
-    // border-radius: 10px;
-    // background: #292f36;
-    // box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
-    // color: #fff;
-    // color: $hoverColor;
-    // color: rgb(91, 29, 52);
     color: $hoverColorTop;
-    // color: #4d5053;
     text-align: center;
-    // font-family: "Jost";
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    // line-height: 125%;
-    letter-spacing: 0.36px;
+    letter-spacing: 2.36px;
     transition: all 0.6s ease-out;
     position: relative;
     text-shadow: 3px 2px 7px black;
@@ -151,12 +109,6 @@ ul {
     &::before {
       top: 0;
       left: 0;
-      // border-top: 6px solid #fdca6b;
-      // border-left: 6px solid #fdca6b;
-      // border-top: 6px solid #4d5053;
-      // border-left: 6px solid #4d5053;
-      // border-top: 6px solid $hoverColorTop;
-      // border-left: 6px solid $hoverColorTop;
       border-top: 6px solid rgb(91, 29, 52);
       border-left: 6px solid rgb(91, 29, 52);
     }
@@ -164,14 +116,8 @@ ul {
     &::after {
       bottom: 0;
       right: 0;
-      // border-bottom: 6px solid #fdca6b;
-      // border-right: 6px solid #fdca6b;
-      // border-bottom: 6px solid $hoverColorTop;
-      // border-right: 6px solid $hoverColorTop;
       border-bottom: 6px solid rgb(91, 29, 52);
       border-right: 6px solid rgb(91, 29, 52);
-      // border-bottom: 6px solid #4d5053;
-      // border-right: 6px solid #4d5053;
     }
 
     &:hover::before,
@@ -180,18 +126,10 @@ ul {
       height: 85%;
       transition: all 0.3s;
     }
-    // &:hover {
-    //   color: $hoverColor;
-    //   background: $colorOfSite;
-    //   border: 1px solid $darkColor;
-    //   transition: all 0.6s ease-out;
-    // }
   }
 }
 
 .post {
-  // margin-bottom: 150px;
-
   &__mainInfo {
     display: block;
     margin: 0 auto;
@@ -228,7 +166,7 @@ ul {
   &__mainText {
     @extend %styleTextJost;
     text-align: center;
-    line-height: 150%; /* 33px */
+    line-height: 150%;
     font-size: 25px;
   }
 
@@ -264,34 +202,17 @@ ul {
     display: none;
   }
 
-  // &__heading {
-  //   margin-bottom: 27px;
-  //   @extend %styleTextDMSerifDisplay;
-  //   font-size: 50px;
-  //   line-height: 125%; /* 62.5px */
-  //   letter-spacing: 1px;
-  // }
-
   &__subcontent {
     width: 36%;
   }
 
   &__info {
-    // width: 469px;
     width: 100%;
   }
 
-  // &__title {
-  //   padding-bottom: 22px;
-  //   @extend %styleTextDMSerifDisplay;
-  //   font-size: 25px;
-  //   line-height: 125%; /* 31.25px */
-  //   letter-spacing: 0.5px;
-  // }
-
   &__text {
     @extend %styleTextJost;
-    line-height: 150%; /* 33px */
+    line-height: 150%;
   }
 
   &__text-details {
@@ -304,52 +225,31 @@ ul {
   }
 
   &__details {
-    padding-top: 41px;
+    padding-top: 22px;
     width: 100%;
     height: 52px;
     display: flex;
-    // align-items: center;
-    /* gap: 26%; */
     justify-content: space-between;
   }
 
   &__details-button {
-    // padding: 10px 12px 12px;
     width: 100%;
     transition: all 0.6s ease-out;
-
-    // &[open] .post__details-title {
-    //   color: $hoverColor;
-    // }
-
-    // &[open] {
-    //   box-shadow: 6px 4px 35px $darkColor;
-    // }
 
     &:hover .post__svg-details circle {
       fill: $hoverColor;
       transition: all 0.4s ease-out;
     }
 
-    // &:hover .post__details-title {
-    //   color: $hoverColor;
-    //   transition: all 0.4s ease-out;
-    // }
-
     &:active .post__svg-details circle {
       fill: $clickColor;
     }
-
-    // &:active .post__details-title {
-    //   color: $clickColor;
-    // }
   }
 
   &__details-summary {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // gap: 11px;
   }
 
   &__details-title {
@@ -358,7 +258,7 @@ ul {
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
     letter-spacing: 0.16px;
     text-transform: capitalize;
   }
@@ -423,7 +323,6 @@ ul {
     }
   }
   .post {
-    // margin-bottom: 120px;
     &__logo {
       margin-bottom: 8px;
       gap: 8px;
@@ -450,7 +349,7 @@ ul {
     }
     &__subcontent {
       width: 95%;
-      margin-top: 33px;
+      margin-top: 22px;
     }
     &__img_movable {
       display: none;
@@ -459,12 +358,15 @@ ul {
       display: block;
       width: 100%;
     }
+    &__text {
+      line-height: 125%;
+    }
   }
 }
 
 @media (max-width: 425px) {
   .banner {
-    margin-bottom: 38px;
+    margin-bottom: 34px;
     min-height: 135px;
     background-position: right;
     padding-bottom: 0px;
@@ -489,23 +391,22 @@ ul {
     }
   }
   .post {
-    // margin-bottom: 100px;
     &__logo {
-      margin-bottom: 6px;
+      margin-bottom: 5px;
       gap: 7px;
     }
     &__logoText_1 {
-      font-size: 20px;
+      font-size: 19px;
     }
     &__logoText_2 {
-      font-size: 16px;
+      font-size: 15px;
     }
     &__mainInfo {
-      margin-bottom: 36px;
+      margin-bottom: 30px;
     }
     &__mainText {
-      font-size: 20px;
-      line-height: 140%;
+      font-size: 19px;
+      line-height: 137%;
     }
     &__box {
       margin-bottom: 35px;
@@ -554,7 +455,6 @@ ul {
     }
   }
   .post {
-    // margin-bottom: 90px;
     &__logo {
       margin-bottom: 5px;
       gap: 6px;
@@ -564,6 +464,9 @@ ul {
     }
     &__logoText_2 {
       font-size: 14px;
+    }
+    &__mainInfo {
+      margin-bottom: 25px;
     }
     &__mainText {
       font-size: 18px;
@@ -581,7 +484,7 @@ ul {
 
 @media (max-width: 320px) {
   .banner {
-    margin-bottom: 28px;
+    margin-bottom: 25px;
     min-height: 102px;
     &__content {
       padding-bottom: 9px;
@@ -607,26 +510,26 @@ ul {
     }
   }
   .post {
-    // margin-bottom: 80px;
     &__mainInfo {
-      margin-bottom: 33px;
+      margin-bottom: 20px;
     }
     &__logo {
       margin-bottom: 4px;
       gap: 5px;
     }
     &__logoText_1 {
-      font-size: 17px;
+      font-size: 15px;
     }
     &__logoText_2 {
-      font-size: 13px;
+      font-size: 12px;
     }
     &__mainText {
-      font-size: 17px;
-      line-height: 130%;
+      font-size: 16px;
+      line-height: 120%;
     }
     &__text {
       font-size: 16px;
+      line-height: 122%;
     }
     &__svg-details {
       width: 38px;

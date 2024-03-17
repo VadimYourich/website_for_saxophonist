@@ -14,6 +14,7 @@
         <div class="footer__icons">
           <router-link to="#" class="footer__iconlink">
             <svg
+              class="footer__icon_1"
               xmlns="http://www.w3.org/2000/svg"
               width="36"
               height="36"
@@ -32,6 +33,7 @@
           </router-link>
           <router-link to="#" class="footer__iconlink">
             <svg
+              class="footer__icon_2"
               xmlns="http://www.w3.org/2000/svg"
               width="40"
               height="40"
@@ -48,6 +50,7 @@
           </router-link>
           <router-link to="#" class="footer__iconlink">
             <svg
+              class="footer__icon_3"
               xmlns="http://www.w3.org/2000/svg"
               fill="#4d5053"
               width="34px"

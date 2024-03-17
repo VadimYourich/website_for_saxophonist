@@ -11,8 +11,6 @@
 }
 
 .blogdetails {
-  // height: 1386px;
-  // margin-bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +20,6 @@
     max-width: 875px;
     padding-left: 16px;
     padding-right: 16px;
-    // height: 437px;
   }
 
   &__heading {
@@ -31,7 +28,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
-    line-height: 125%; /* 62.5px */
+    line-height: 125%;
     letter-spacing: 1px;
   }
 
@@ -41,7 +38,7 @@
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.22px;
-    line-height: 150%; /* 33px */
+    line-height: 150%;
     font-size: 28px;
   }
 

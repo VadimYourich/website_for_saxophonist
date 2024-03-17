@@ -2,16 +2,12 @@
   <HeaderComponent />
 
   <section class="banner center">
-    <!-- <div class="banner__box"> -->
     <div class="banner__content">
       <div class="banner__subcontent">
         <h1 class="banner__heading">Музыкальная <br />мастерская</h1>
       </div>
-      <router-link class="banner__button" to="/blog">
-        Познакомиться
-      </router-link>
+      <router-link class="banner__button" to="/blog"> Заглянуть </router-link>
     </div>
-    <!-- </div> -->
   </section>
 
   <section class="post center">
@@ -34,7 +30,7 @@
           <p class="post__text">
             SaxSanych исполняет популярную и джазовую музыку.
           </p>
-          <br /><br />
+          <br />
           <p class="post__text">
             Закончил обучение на эстрадно-духовом отделении Краснодарского
             государственного института культуры.
@@ -88,7 +84,7 @@
           <p class="post__text">
             Дирижёр и солист народного духового оркестра.
           </p>
-          <br /><br />
+          <br />
           <p class="post__text">
             Неоднократно оркестр становился победителем краевых и всероссийских
             конкурсов. Тем самым подтверждая высокий уровень мастерства!
@@ -139,7 +135,7 @@
             выпускники поступают в ведущие профессиональные учреждения культуры
             и искусства страны.
           </p>
-          <br /><br />
+          <br />
           <p class="post__text">
             Возможны индивидуальные занятия или дистанционные консультации.
           </p>
@@ -185,14 +181,11 @@
       />
       <div class="post__subcontent">
         <div class="post__info">
-          <!-- <h3 class="post__title">
-              Low Cost Latest Invented Interior Designing Ideas
-            </h3> -->
           <p class="post__text">
             Музыкальное сопровождение и сольные выступления на меpопpиятиях по
             Краснодарскому краю и в г. Ростове-на-Дону!
           </p>
-          <br /><br />
+          <br />
           <p class="post__text">
             Многолетний опыт, качественное исполнение, разносторонний репертуар!
           </p>

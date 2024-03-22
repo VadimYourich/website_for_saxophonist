@@ -1,6 +1,5 @@
 <template>
   <header class="header center">
-    <!-- <div class="header__menubar"> -->
     <router-link to="/" class="header__logo">
       <svg
         class="header__logoImg"
@@ -30,19 +29,9 @@
         <li class="header__menuItem">
           <router-link to="/" class="header__menuLink">О себе</router-link>
         </li>
-        <!-- <li class="header__menuItem">
-            <router-link to="/blogdetails" class="header__menuLink"
-              >Видеоуроки</router-link
-            >
-          </li> -->
         <li class="header__menuItem">
           <router-link to="/blog" class="header__menuLink">Блог</router-link>
         </li>
-        <!-- <li class="header__menuItem">
-            <button class="header__menuLink" @click="scroll‑behavior smooth">
-              Контакты
-            </button>
-          </li> -->
         <li class="header__menuItem">
           <router-link to="/footercomponent" class="header__menuLink"
             >Контакты</router-link
@@ -50,7 +39,6 @@
         </li>
       </ul>
     </nav>
-    <!-- </div> -->
   </header>
 </template>
 

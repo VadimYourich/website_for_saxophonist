@@ -72,11 +72,6 @@
             <li class="footer__menuItem">
               <router-link to="/" class="footer__menuLink">О себе</router-link>
             </li>
-            <!-- <li class="footer__menuItem">
-              <router-link to="/blogdetails" class="footer__menuLink"
-                >Видеоуроки</router-link
-              >
-            </li> -->
             <li class="footer__menuItem">
               <router-link to="/blog" class="footer__menuLink"
                 >Блог</router-link

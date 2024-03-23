@@ -164,7 +164,12 @@ ul {
   }
 
   &__mainText {
-    @extend %styleTextJost;
+    color: $grayColor;
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
     text-align: center;
     line-height: 150%;
     font-size: 25px;
@@ -174,7 +179,6 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     gap: 3%;
     border-radius: 62px;
     border: 1px solid #e7e7e7;
@@ -203,7 +207,10 @@ ul {
   }
 
   &__subcontent {
+    display: flex;
     width: 36%;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   &__info {
@@ -211,7 +218,12 @@ ul {
   }
 
   &__text {
-    @extend %styleTextJost;
+    color: $grayColor;
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
     line-height: 150%;
   }
 

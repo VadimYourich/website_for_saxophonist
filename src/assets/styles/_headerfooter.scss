@@ -226,7 +226,7 @@
 }
 @media (max-width: 1024px) {
   .header {
-    height: 100px;
+    height: 125px;
   }
   .footer {
     margin-bottom: 120px;
@@ -236,7 +236,7 @@
 
 @media (max-width: 768px) {
   .header {
-    height: 80px;
+    height: 88px;
     &__logo {
       gap: 7px;
     }
@@ -350,7 +350,7 @@
 }
 @media (max-width: 425px) {
   .header {
-    height: 57px;
+    height: 77px;
     &__logo {
       gap: 6px;
     }
@@ -427,7 +427,7 @@
 }
 @media (max-width: 375px) {
   .header {
-    height: 52px;
+    height: 69px;
     &__logo {
       gap: 5px;
     }
@@ -471,7 +471,7 @@
 }
 @media (max-width: 320px) {
   .header {
-    height: 49px;
+    height: 61px;
     &__logo {
       gap: 4px;
     }

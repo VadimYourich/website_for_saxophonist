@@ -28,7 +28,8 @@
 
 body {
   font-family: "Albertus Nova", "Jost", sans-serif;
-  background-color: $colorOfSite;
+  // background-color: $colorOfSite;
+  background: linear-gradient(45deg, black, transparent);
   min-width: 275px;
 }
 
@@ -226,6 +227,24 @@ ul {
     letter-spacing: 0.22px;
     line-height: 150%;
   }
+  &__text_darkgray {
+    color: $darkgrayColor;
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+    line-height: 150%;
+  }
+  &__text_dark-darkgray {
+    color: $dark-darkgrayColor;
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+    line-height: 150%;
+  }
 
   &__text-details {
     background-color: beige;
@@ -266,6 +285,26 @@ ul {
 
   &__details-title {
     color: $grayColor;
+    font-family: "Jost";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+  }
+  &__details-title_darkgray {
+    color: $darkgrayColor;
+    font-family: "Jost";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+  }
+  &__details-title_dark-darkgray {
+    color: $dark-darkgrayColor;
     font-family: "Jost";
     font-size: 17px;
     font-style: normal;

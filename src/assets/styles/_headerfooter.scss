@@ -92,10 +92,8 @@
   margin-bottom: 134px;
 
   &__text,
-  &__menuLink,
-  &__address,
-  &__phone {
-    color: #4d5053;
+  &__menuLink {
+    color: $grayColor;
     font-family: "Jost";
     font-size: 22px;
     font-style: normal;
@@ -169,36 +167,54 @@
 
   &__contact {
     text-align: end;
-  }
-
-  &__address {
-    line-height: 150%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  &__email {
-    font-family: "Jost";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    letter-spacing: 0.22px;
-    transition: all 0.5s ease-out;
-
-    &:hover {
-      color: $hoverColor;
-      transition: all 0.5s ease-out;
+    &__heading {
+      color: $grayColor-contact;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 125%;
+      margin-bottom: 10px;
     }
-    &:active {
-      color: $clickColor;
-      transition: all 0.5s ease-out;
+    &__address {
+      color: $grayColor-contact;
+      line-height: 150%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: "Jost";
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0.22px;
     }
-  }
+    &__email {
+      color: $grayColor-contact;
+      font-family: "Jost";
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: 0.22px;
+      transition: all 0.5s ease-out;
 
-  &__phone {
-    padding-top: 20px;
-    line-height: 300%;
+      &:hover {
+        color: $hoverColor;
+        transition: all 0.5s ease-out;
+      }
+      &:active {
+        color: $clickColor;
+        transition: all 0.5s ease-out;
+      }
+    }
+    &__phone {
+      color: $grayColor-contact;
+      font-family: "Jost";
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0.22px;
+      padding-top: 20px;
+      line-height: 300%;
+    }
   }
 }
 
@@ -238,6 +254,20 @@
   .footer {
     margin-bottom: 100px;
     margin-top: 120px;
+    &__contact {
+      &__heading {
+        color: $grayColor;
+      }
+      &__address {
+        color: $grayColor;
+      }
+      &__email {
+        color: $grayColor;
+      }
+      &__phone {
+        color: $grayColor;
+      }
+    }
   }
 }
 
@@ -299,12 +329,15 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      &__heading {
+        margin-bottom: 0px;
+      }
+      &__phone {
+        padding-top: 10px;
+      }
     }
     &__heading {
       margin-bottom: 0px;
-    }
-    &__phone {
-      padding-top: 10px;
     }
   }
 }
@@ -337,11 +370,24 @@
   .footer {
     margin-top: 100px;
     &__text,
-    &__menuLink,
-    &__address,
-    &__phone,
-    &__email {
+    &__menuLink {
       font-size: 18px;
+    }
+    &__contact {
+      &__address,
+      &__phone,
+      &__email {
+        font-size: 18px;
+      }
+      &__heading {
+        font-size: 22px;
+      }
+      &__phone {
+        padding-top: 0px;
+      }
+      &__address {
+        padding-bottom: 10px;
+      }
     }
     &__logo {
       display: flex;
@@ -369,12 +415,6 @@
     }
     &__heading {
       font-size: 22px;
-    }
-    &__phone {
-      padding-top: 0px;
-    }
-    &__address {
-      padding-bottom: 10px;
     }
   }
 }
@@ -409,6 +449,12 @@
     &__heading {
       font-size: 23px;
       margin-bottom: 6px;
+    }
+    &__contact {
+      &__heading {
+        font-size: 23px;
+        margin-bottom: 6px;
+      }
     }
     &__logo {
       gap: 7px;

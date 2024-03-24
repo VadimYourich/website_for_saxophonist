@@ -23,16 +23,23 @@
             >
               <svg
                 class="blogs__icon"
-                width="52"
-                height="53"
-                viewBox="0 0 52 53"
+                width="53"
+                height="52"
+                viewBox="0 0 53 52"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="26" cy="26.5" r="26" fill="#F4F0EC" />
+                <circle
+                  cx="26.5"
+                  cy="26"
+                  r="25.5"
+                  stroke="rgb(91, 29, 52)"
+                  fill="rgb(91, 29, 52)"
+                  fill-opacity="0.1"
+                />
                 <path
                   d="M23.771 33.1855L29.7139 26.4998L23.771 19.8141"
-                  stroke="#292F36"
+                  stroke="rgb(91, 29, 52)"
                   stroke-width="2"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -71,11 +78,11 @@
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle cx="26.5" cy="26" r="25.5" stroke="#CDA274" />
+            <circle cx="26.5" cy="26" r="25.5" stroke="none" fill="none" />
             <path
               d="M23.5571 32L29.5 25.3143L23.5571 18.6286"
               stroke="#292F36"
-              stroke-width="1"
+              stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
             />

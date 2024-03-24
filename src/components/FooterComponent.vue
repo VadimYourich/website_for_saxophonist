@@ -82,12 +82,12 @@
       </div>
 
       <div class="footer__contact">
-        <h3 class="footer__heading">Контакты</h3>
-        <p class="footer__address">г. Краснодар</p>
-        <router-link class="footer__email" to="#"
+        <h3 class="footer__contact__heading">Контакты</h3>
+        <p class="footer__contact__address">г. Краснодар</p>
+        <router-link class="footer__contact__email" to="#"
           >sax_sanych@mail.ru</router-link
         >
-        <p class="footer__phone">+7 (777) 777-77-77</p>
+        <p class="footer__contact__phone">+7 (777) 777-77-77</p>
       </div>
     </div>
   </footer>

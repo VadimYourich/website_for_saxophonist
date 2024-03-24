@@ -130,20 +130,20 @@
     <div class="post__box">
       <div class="post__subcontent">
         <div class="post__info">
-          <p class="post__text">
+          <p class="post__text_darkgray">
             Руководитель и преподаватель детской школы искусств с 2004 года. Его
             выпускники поступают в ведущие профессиональные учреждения культуры
             и искусства страны.
           </p>
           <br />
-          <p class="post__text">
+          <p class="post__text_darkgray">
             Возможны индивидуальные занятия или дистанционные консультации.
           </p>
         </div>
         <div class="post__details">
           <details class="post__details-button">
             <summary class="post__details-summary" @click="toggleBtn3">
-              <span class="post__details-title">{{
+              <span class="post__details-title_darkgray">{{
                 showBtn3 ? "Подробнее" : "Скрыть"
               }}</span>
               <svg
@@ -181,19 +181,19 @@
       />
       <div class="post__subcontent">
         <div class="post__info">
-          <p class="post__text">
+          <p class="post__text_dark-darkgray">
             Музыкальное сопровождение и сольные выступления на меpопpиятиях по
             Краснодарскому краю и в г. Ростове-на-Дону!
           </p>
           <br />
-          <p class="post__text">
+          <p class="post__text_dark-darkgray">
             Многолетний опыт, качественное исполнение, разносторонний репертуар!
           </p>
         </div>
         <div class="post__details">
           <details class="post__details-button">
             <summary class="post__details-summary" @click="toggleBtn4">
-              <span class="post__details-title">{{
+              <span class="post__details-title_dark-darkgray">{{
                 showBtn4 ? "Подробнее" : "Скрыть"
               }}</span>
               <svg

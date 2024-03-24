@@ -43,7 +43,7 @@
     font-weight: 400;
     color: $headerColor;
     font-size: 37px;
-    line-height: 125%; 
+    line-height: 125%;
     letter-spacing: 1px;
     text-align: center;
   }
@@ -84,46 +84,52 @@
   }
 
   &__heading {
-    color: $grayColor;
+    color: $headerColor;
+    // color: $grayColor;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
-    line-height: 125%; 
+    line-height: 125%;
     letter-spacing: 0.5px;
   }
 
   &__text {
-    color: #4d5053;
-    font-family: "Jost";
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0.22px;
-    line-height: 150%; 
-  }
-
-  &__reviews {
-    display: flex;
-    align-items: center;
-  }
-
-  &__reviews_text {
-    color: $clickColor;
+    color: $headerColor;
+    // color: $grayColor;
     font-family: "Jost";
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.22px;
     line-height: 150%;
-    transition: all 0.6s ease-out;
-    margin-right: 10px;
   }
 
-  &__bloglink {
+  &__reviews {
+    display: flex;
+    align-items: center;
+    transition: all 0.6s ease-out;
+  }
 
+  &__reviews_text {
+    // color: $clickColor;
+    color: $headerColor;
+    // color: $grayColor;
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+    line-height: 150%;
+    margin-right: 10px;
+  }
+  &__icon circle {
+    transition: all 0.5s ease-out;
+  }
+  &__bloglink {
     &:hover .blogs__icon circle {
-      transition: all 0.6s ease-out;
+      // fill: $hoverColorTop;
       fill: $hoverColor;
+      fill-opacity: 0.5;
     }
   }
 
@@ -155,19 +161,20 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; 
+    line-height: 150%;
     text-transform: capitalize;
-    transition: all 0.6s ease-out;
+    transition: all 0.5s ease-out;
 
     &:hover {
       background-color: $hoverColor;
       border-color: $grayColor;
-      transition: all 0.6s ease-out;
+      opacity: 0.5;
+      // transition: all 0.6s ease-out;
     }
   }
 
   &__paginationlink_active {
-    background-color: #f4f0ec;
+    background-color: $grayColor;
   }
 }
 @media (min-width: 1025px) {

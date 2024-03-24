@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-left: 2%;
+    padding-left: 4%;
   }
   &__right {
     max-width: 50%;
@@ -21,7 +21,7 @@
   &__heading {
     margin-bottom: 59px;
     color: $headerColor;
-    font-size: 177px;
+    font-size: 150px;
     font-style: normal;
     font-weight: 400;
     line-height: 80%;
@@ -29,21 +29,22 @@
 
   &__text {
     margin-bottom: 23px;
-    color: $grayColor;
+    color: #292a2d;
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
-    line-height: 150%;
+    font-size: 30px;
+    line-height: 135%;
     letter-spacing: 0.35px;
+    text-shadow: 1px 1px 11px rgb(111, 97, 102);
   }
 
   &__button {
     width: 227px;
-    height: 70px;
+    height: 67px;
     padding: 2px 16px;
     border-radius: 18px;
     background: #292f36;
-    box-shadow: 5px 3px 17px 4px rgb(111, 97, 102);
+    box-shadow: 1px 1px 11px 3px rgb(111, 97, 102);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -60,34 +61,25 @@
     transition: all 0.6s ease-out;
 
     &:hover {
-      color: $hoverColor;
+      color: $darkColor;
       background: $colorOfSite;
-      border: 1px solid $darkColor;
-      transition: all 0.6s ease-out;
     }
   }
 
   &__img {
-    border-bottom-left-radius: 220px;
+    border-top-left-radius: 177px;
+    // border-bottom-left-radius: 177px;
+    width: -webkit-fill-available;
   }
 }
 @media (max-width: 1024px) {
   .notfound__img {
-    border-bottom-left-radius: 140px;
-    width: -webkit-fill-available;
+    // border-bottom-left-radius: 140px;
+    border-top-left-radius: 140px;
   }
   .notfound__heading {
     margin-bottom: 40px;
     font-size: 120px;
-  }
-}
-@media (max-width: 768px) {
-  .notfound__img {
-    border-bottom-left-radius: 120px;
-  }
-  .notfound__heading {
-    margin-bottom: 20px;
-    font-size: 80px;
   }
   .notfound__text {
     margin-bottom: 20px;
@@ -95,22 +87,44 @@
     line-height: 130%;
   }
   .notfound__button {
+    width: 222px;
+    height: 60px;
+    box-shadow: 1px 1px 9px 3px rgb(111, 97, 102);
+  }
+}
+@media (max-width: 768px) {
+  .notfound__img {
+    // border-bottom-left-radius: 120px;
+    border-top-left-radius: 111px;
+  }
+  .notfound__heading {
+    margin-bottom: 20px;
+    font-size: 80px;
+  }
+  .notfound__text {
+    margin-bottom: 17px;
+    font-size: 19px;
+    line-height: 125%;
+  }
+  .notfound__button {
     font-size: 25px;
-    width: 188px;
-    height: 52px;
+    width: 177px;
+    height: 48px;
+    box-shadow: 1px 1px 8px 3px rgb(111, 97, 102);
   }
 }
 @media (max-width: 425px) {
   .notfound__img {
-    border-bottom-left-radius: 80px;
+    // border-bottom-left-radius: 80px;
+    border-top-left-radius: 66px;
   }
   .notfound__heading {
     margin-bottom: 12px;
-    font-size: 44px;
+    font-size: 50px;
   }
   .notfound__text {
     margin-bottom: 11px;
-    font-size: 14px;
+    font-size: 10px;
     line-height: 120%;
   }
   .notfound__button {
@@ -119,7 +133,7 @@
     font-size: 14px;
     padding: 2px 8px;
     border-radius: 9px;
-    box-shadow: 4px 2px 9px 3px rgb(111, 97, 102);
+    box-shadow: 1px 1px 7px 2px rgb(111, 97, 102);
     gap: 7px;
   }
   .notfound__icon {
@@ -129,15 +143,16 @@
 }
 @media (max-width: 375px) {
   .notfound__img {
-    border-bottom-left-radius: 60px;
+    // border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
   }
   .notfound__heading {
     margin-bottom: 10px;
-    font-size: 33px;
+    font-size: 44px;
   }
   .notfound__text {
     margin-bottom: 9px;
-    font-size: 12px;
+    font-size: 9px;
     line-height: 116%;
   }
   .notfound__button {
@@ -146,7 +161,7 @@
     font-size: 12px;
     padding: 2px 7px;
     border-radius: 7px;
-    box-shadow: 3px 1px 8px 2px rgb(111, 97, 102);
+    box-shadow: 1px 1px 6px 2px rgb(111, 97, 102);
     gap: 6px;
   }
   .notfound__icon {
@@ -156,16 +171,18 @@
 }
 @media (max-width: 320px) {
   .notfound__img {
-    border-bottom-left-radius: 47px;
+    // border-bottom-left-radius: 47px;
+    border-top-left-radius: 47px;
   }
   .notfound__heading {
     margin-bottom: 9px;
-    font-size: 28px;
+    font-size: 40px;
   }
   .notfound__text {
     margin-bottom: 8px;
-    font-size: 10px;
-    line-height: 112%;
+    font-size: 8px;
+    line-height: 111%;
+    letter-spacing: 0.11px;
   }
   .notfound__button {
     width: 86px;
@@ -173,7 +190,7 @@
     font-size: 11px;
     padding: 2px 6px;
     border-radius: 6px;
-    box-shadow: 2px 1px 7px 1px rgb(111, 97, 102);
+    box-shadow: 2px 1px 5px 2px rgb(111, 97, 102);
     gap: 5px;
   }
   .notfound__icon {

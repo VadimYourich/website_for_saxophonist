@@ -154,7 +154,7 @@
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="26" cy="26.5" r="26" fill="lightgray" />
+                <circle cx="26" cy="26.5" r="26" fill="#85888b" />
                 <path
                   d="M23.771 33.1855L29.7139 26.4998L23.771 19.8141"
                   stroke="#292F36"
@@ -204,7 +204,7 @@
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="26" cy="26.5" r="26" fill="lightgray" />
+                <circle cx="26" cy="26.5" r="26" fill="#85888b" />
                 <path
                   d="M23.771 33.1855L29.7139 26.4998L23.771 19.8141"
                   stroke="#292F36"

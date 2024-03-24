@@ -22,8 +22,8 @@ const routes = [
     component: BlogDetailsComponent,
   },
   {
-    path: "/footercomponent",
-    name: "FooterComponent",
+    path: "/contacts",
+    name: "Contacts",
     component: FooterComponent,
   },
   {

@@ -85,7 +85,6 @@
 
   &__heading {
     color: $headerColor;
-    // color: $grayColor;
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -95,7 +94,6 @@
 
   &__text {
     color: $headerColor;
-    // color: $grayColor;
     font-family: "Jost";
     font-size: 22px;
     font-style: normal;
@@ -111,9 +109,7 @@
   }
 
   &__reviews_text {
-    // color: $clickColor;
     color: $headerColor;
-    // color: $grayColor;
     font-family: "Jost";
     font-size: 22px;
     font-style: normal;
@@ -127,7 +123,6 @@
   }
   &__bloglink {
     &:hover .blogs__icon circle {
-      // fill: $hoverColorTop;
       stroke: $headerColor;
       stroke-opacity: 0.1;
       fill: $hoverColor;
@@ -171,7 +166,6 @@
       background-color: $hoverColor;
       border-color: $grayColor;
       opacity: 0.5;
-      // transition: all 0.6s ease-out;
     }
   }
 

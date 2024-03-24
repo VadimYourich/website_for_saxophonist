@@ -33,7 +33,7 @@
           <router-link to="/blog" class="header__menuLink">Блог</router-link>
         </li>
         <li class="header__menuItem">
-          <router-link to="/footercomponent" class="header__menuLink"
+          <router-link to="/contacts" class="header__menuLink"
             >Контакты</router-link
           >
         </li>

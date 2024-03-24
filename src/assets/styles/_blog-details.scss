@@ -76,6 +76,10 @@
     &__text {
       font-size: 20px;
     }
+    &__content {
+      padding-left: 44px;
+      padding-right: 44px;
+    }
   }
 }
 
@@ -93,6 +97,10 @@
     &__text {
       font-size: 18px;
     }
+    &__content {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
   }
 }
 
@@ -109,6 +117,10 @@
     }
     &__text {
       font-size: 16px;
+    }
+    &__content {
+      padding-left: 35px;
+      padding-right: 35px;
     }
   }
 }

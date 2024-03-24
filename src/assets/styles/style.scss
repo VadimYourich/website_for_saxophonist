@@ -346,6 +346,12 @@ ul {
     &__text {
       font-size: 20px;
     }
+    &__text_darkgray {
+      font-size: 20px;
+    }
+    &__text_dark-darkgray {
+      font-size: 20px;
+    }
   }
 }
 
@@ -383,6 +389,7 @@ ul {
     }
     &__logoText_2 {
       font-size: 18px;
+      margin-top: 3px;
     }
     &__mainInfo {
       max-width: 88vw;
@@ -411,6 +418,12 @@ ul {
       width: 100%;
     }
     &__text {
+      line-height: 125%;
+    }
+    &__text_darkgray {
+      line-height: 125%;
+    }
+    &__text_dark-darkgray {
       line-height: 125%;
     }
   }
@@ -452,6 +465,7 @@ ul {
     }
     &__logoText_2 {
       font-size: 15px;
+      margin-top: 0px;
     }
     &__mainInfo {
       margin-bottom: 30px;
@@ -465,6 +479,12 @@ ul {
       border-radius: 40px;
     }
     &__text {
+      font-size: 18px;
+    }
+    &__text_darkgray {
+      font-size: 18px;
+    }
+    &__text_dark-darkgray {
       font-size: 18px;
     }
     &__img {
@@ -527,6 +547,12 @@ ul {
     &__text {
       font-size: 17px;
     }
+    &__text_darkgray {
+      font-size: 17px;
+    }
+    &__text_dark-darkgray {
+      font-size: 17px;
+    }
     &__svg-details {
       width: 40px;
       height: 40px;
@@ -580,6 +606,14 @@ ul {
       line-height: 120%;
     }
     &__text {
+      font-size: 16px;
+      line-height: 122%;
+    }
+    &__text_darkgray {
+      font-size: 16px;
+      line-height: 122%;
+    }
+    &__text_dark-darkgray {
       font-size: 16px;
       line-height: 122%;
     }

@@ -217,7 +217,13 @@
     }
   }
 }
-
+@media (max-width: 1440px) {
+  .header {
+    &__logoText_2 {
+      margin-top: 7px;
+    }
+  }
+}
 @media (max-width: 1024px) {
   .header {
     height: 100px;
@@ -242,6 +248,7 @@
       font-size: 25px;
     }
     &__logoText_2 {
+      margin-top: 0px;
       font-size: 21px;
     }
     &__menuLink {
